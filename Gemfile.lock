@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    guard-rspec-graphiti (1.0.0)
+    guard-rspec-graphiti (1.0.1)
       graphiti
       guard-rspec
 
@@ -26,8 +26,8 @@ GEM
       concurrent-ruby (~> 1.0)
     dry-equalizer (0.2.2)
     dry-inflector (0.1.2)
-    dry-logic (0.5.0)
-      dry-container (~> 0.2, >= 0.2.6)
+    dry-logic (0.6.1)
+      concurrent-ruby (~> 1.0)
       dry-core (~> 0.2)
       dry-equalizer (~> 0.2)
     dry-types (0.15.0)
@@ -39,13 +39,13 @@ GEM
       dry-logic (~> 0.5, >= 0.5)
     ffi (1.10.0)
     formatador (0.2.5)
-    graphiti (1.0.rc.26)
+    graphiti (1.1.1)
       activesupport (>= 4.1, < 6)
       concurrent-ruby (~> 1.0)
-      dry-types (~> 0.13)
-      graphiti_errors (~> 1.0.beta.1)
+      dry-types (~> 0.15)
+      graphiti_errors (~> 1.1.0)
       jsonapi-serializable (~> 0.3.0)
-    graphiti_errors (1.0.beta.2)
+    graphiti_errors (1.1.0)
       jsonapi-serializable (~> 0.1)
     guard (2.15.0)
       formatador (>= 0.2.4)
@@ -115,4 +115,4 @@ DEPENDENCIES
   rspec (~> 3.0)
 
 BUNDLED WITH
-   1.16.6
+   1.17.2

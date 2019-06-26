@@ -5,7 +5,7 @@ require "guard/rspec/graphiti/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "guard-rspec-graphiti"
-  spec.version       = Guard::Rspec::Graphiti::VERSION
+  spec.version       = Guard::RSpec::Graphiti::VERSION
   spec.authors       = ["Wade Tandy"]
   spec.email         = ["wtandy@bloomberg.net"]
 

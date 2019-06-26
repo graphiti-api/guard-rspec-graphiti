@@ -1,5 +1,5 @@
-RSpec.describe Guard::Rspec::Graphiti do
+RSpec.describe Guard::RSpec::Graphiti do
   it "has a version number" do
-    expect(Guard::Rspec::Graphiti::VERSION).not_to be nil
+    expect(Guard::RSpec::Graphiti::VERSION).not_to be nil
   end
 end
